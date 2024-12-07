@@ -9,7 +9,7 @@ const User=({name})=>{
     // },[]);
     // async function getUserInfo() {
     // }
-    return (<div className="user-card">
+    return (<div className="bg-gray-400 rounded-lg m-4 p-4">
         <h1>count = {count}</h1>
         <h1>Count2 = {count2}</h1>
         <h2>Name: {name}</h2>

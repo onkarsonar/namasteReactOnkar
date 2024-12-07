@@ -35,24 +35,26 @@ if(onlineStatus===false) {
   return listOfRestaurants==0 ? (<Shimmer/> )
   : (
     <div className="body">
-      <div className="filter">
-        <div className='search'>
-          <input type='text' className="search-box" value={searchText} onChange={(e)=>{
+      <div className="filter flex">
+        <div className='search m-4 p-4'>
+          <input type='text' className="border border-solid border-black" value={searchText} onChange={(e)=>{
             setSearchText(e.target.value);
           }}></input>
-          <button onClick={()=>{
+          <button className="px-4 py-1 bg-green-400 m-4 rounded-lg" onClick={()=>{
            const filteredRestaurant =  listOfRestaurants.filter((res)=>res?.info?.name.toLowerCase().includes(searchText.toLowerCase()));
            setFilteredRestaurant(filteredRestaurant);
           }}>Search</button>
         </div>
-        <button className="filter-btn" onClick={() => {
+        <div className="m-4 p-4 flex items-center">
+        <button className="px-4 py-1 bg-gray-400" onClick={() => {
           const filteredList = listOfRestaurants.filter(
             (res) => res.info.avgRating > 4
           );
           setListOfRestaurants(filteredList);
         }}>To rated restaurant</button>
+        </div>
       </div>
-      <div className="res-container">
+      <div className="flex flex-wrap">
         {filteredRestaurant?.length > 0 &&
           filteredRestaurant?.map((restaurants) => (
       

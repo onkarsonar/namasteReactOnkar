@@ -15,8 +15,9 @@ const cloudinaryImageId = resInfo?.cards[2]?.card?.card?.info?.cloudinaryImageId
 const cost = resInfo?.cards[2]?.card?.card?.info?.costForTwoMessage || "--";
 const itemCards = resInfo?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[2].card?.card?.itemCards;
 
-    console.log(itemCards);  // Log 'name' to check if it's fetched properly
-
+    // console.log(itemCards);  // Log 'name' to check if it's fetched properly
+const categories = resInfo?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards.filter(c=>c.card?.card?.["@type"]=="type.googleapis.com/swiggy.presentation.food.v2.ItemCategory");
+console.log(categories);
     return  (
         <div className="menu">
             <h3>{name}</h3>

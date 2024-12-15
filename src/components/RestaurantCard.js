@@ -13,7 +13,19 @@ const RestaurantCard = (props) => {
         <h4>{resData?.info?.sla?.deliveryTime} Minutes</h4>
       </div>
     );
-  }
+  };
 
+  //higher order component
+//input Restaurantcard ===>Restarunt card veg
+export const withVegLabel = (RestaurantCard) => {
+  return (props)=>{
+    return (
+      <div>
+        <label className="absolute bg-green-950 text-white m-2 p-2 rounded-lg">Vegetarian</label>
+        <RestaurantCard {...props}/>
+      </div>
+    )
+  }
+}
   
   export default RestaurantCard;

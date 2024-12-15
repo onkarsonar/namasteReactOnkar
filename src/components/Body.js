@@ -1,14 +1,15 @@
-import RestaurantCard from "./RestaurantCard";
+import RestaurantCard, {withVegLabel} from "./RestaurantCard";
 import { useState, useEffect } from "react";
 import Shimmer from "./Shimmer";
 import {Link} from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
 
+
 const Body = () => {
   const [listOfRestaurants, setListOfRestaurants] = useState([]);
   const[filteredRestaurant,setFilteredRestaurant] = useState([]);
   const [searchText,setSearchText] = useState('');
-
+const RestaurantCardVeg = withVegLabel(RestaurantCard);
   useEffect(() => {
     fetchData();
   }, []);
@@ -58,7 +59,11 @@ if(onlineStatus===false) {
         {filteredRestaurant?.length > 0 &&
           filteredRestaurant?.map((restaurants) => (
       
-          <Link  key={restaurants?.info?.id} to={"/restaurants/"+restaurants?.info?.id}><RestaurantCard resData={restaurants} /></Link>
+          <Link  key={restaurants?.info?.id} to={"/restaurants/"+restaurants?.info?.id}>
+            {
+              restaurants?.info?.veg ? (<RestaurantCardVeg resData={restaurants}/>) : (<RestaurantCard resData={restaurants} />)
+            }
+            </Link>
           )
         )
         }

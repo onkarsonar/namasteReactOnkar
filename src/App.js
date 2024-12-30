@@ -1,4 +1,4 @@
-import React, {lazy,Suspense} from "react";
+import React, {lazy,Suspense, useEffect} from "react";
 import ReactDOM from "react-dom/client";
 import Header from "./components/Header";
 import Body from "./components/Body";
@@ -7,6 +7,8 @@ import { createBrowserRouter, RouterProvider,Outlet, useParams } from "react-rou
 import Contact from "./components/Contact";
 import Error from "./components/Error";
 import RestaurantMenu from "./components/RestaurantMenu";
+import {useState} from "react";
+import UserContext from "./components/UserContext";
 // import Grocery from "./components/Grocery";
 const styleCard = {
   backgroundColor: "#f0f0f0",
@@ -16,11 +18,22 @@ const Grocery = lazy(()=>import("./components/Grocery") );
 const About = lazy(()=>import("./components/About"));
 //first component will redner on UI
 const AppLayout = () => {
+
+const [userName, setUserName] = useState();
+useEffect(()=>{
+  const data={
+    name:'Onkar Sonar'
+  }
+  setUserName(data.name);
+},[]);
+
   return (
+    <UserContext.Provider value={{loggedInUser:userName,setUserName}}>
     <div className="app">
       <Header />
     <Outlet/>
     </div>
+    </UserContext.Provider>
   )
 }
 

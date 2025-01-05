@@ -5,6 +5,22 @@ import "@testing-library/jest-dom";
 
 describe("Contact us test cases", () => {
 
+    // beforeAll(()=>{
+    //     console.log('before all');
+    // });
+
+    // beforeEach(()=>{
+    //     console.log('before each');
+    // })
+
+    // afterAll(()=>{
+    //     console.log('after all');
+    // })
+
+    // afterEach(()=>{
+    //     console.log('after each');
+    // })
+
     test('should load conatct us componenet', () => {
         render(<Contact />);
         const heading = screen.getByRole("heading");

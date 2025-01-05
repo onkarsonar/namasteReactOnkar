@@ -4,6 +4,7 @@ import Shimmer from "./Shimmer";
 import {Link} from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
 import UserContext from "./UserContext";
+import React from "react";
 
 const Body = () => {
   const [listOfRestaurants, setListOfRestaurants] = useState([]);
@@ -39,7 +40,7 @@ if(onlineStatus===false) {
     <div className="body">
       <div className="filter flex">
         <div className='search m-4 p-4'>
-          <input type='text' className="border border-solid border-black" value={searchText} onChange={(e)=>{
+          <input type='text' data-testid='searchInput' className="border border-solid border-black" value={searchText} onChange={(e)=>{
             setSearchText(e.target.value);
           }}></input>
           <button className="px-4 py-1 bg-green-400 m-4 rounded-lg" onClick={()=>{

@@ -1,0 +1,1497 @@
+{
+    "statusCode": 0,
+    "data": {
+        "statusMessage": "done successfully",
+        "cards": [
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.TextBoxV2",
+                        "text": "satara snacks",
+                        "headerStyling": {
+                            "textColor": "text_Highest_Emphasis",
+                            "textVariant": "header_H3_Black"
+                        }
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.RestaurantBlTab",
+                        "tabs": [
+                            {
+                                "id": "Order Online",
+                                "title": "Order Online"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                        "info": {
+                            "id": "990148",
+                            "name": "satara snacks",
+                            "city": "Satara",
+                            "slugs": {
+                                "restaurant": "satara-snacks-satara-satara",
+                                "city": "satara"
+                            },
+                            "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/11/13/74b18956-bf82-4069-a1b2-8592a7ff5432_990148.jpg",
+                            "locality": "Satara",
+                            "areaName": "Satara",
+                            "costForTwo": "19900",
+                            "costForTwoMessage": "₹199 for two",
+                            "cuisines": [
+                                "Cafe"
+                            ],
+                            "avgRating": 4.5,
+                            "veg": true,
+                            "feeDetails": {
+                                "restaurantId": "990148",
+                                "fees": [
+                                    {}
+                                ]
+                            },
+                            "parentId": "578311",
+                            "avgRatingString": "4.5",
+                            "totalRatingsString": "12 ratings",
+                            "sla": {
+                                "restaurantId": "990148",
+                                "deliveryTime": 21,
+                                "minDeliveryTime": 20,
+                                "maxDeliveryTime": 25,
+                                "lastMileTravel": 1.2,
+                                "serviceability": "SERVICEABLE",
+                                "stressFactor": 1,
+                                "rainMode": "RAIN_MODE_NONE",
+                                "longDistance": "LONG_DISTANCE_NOT_LONG_DISTANCE",
+                                "zoneId": 1650,
+                                "slaString": "20-25 MINS",
+                                "lastMileTravelString": "1.2 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseTime": "2025-01-05 17:00:00",
+                                "visibility": true,
+                                "opened": true,
+                                "restaurantClosedMeta": {}
+                            },
+                            "aggregatedDiscountInfo": {
+                                "header": "10% off",
+                                "shortDescriptionList": [
+                                    {
+                                        "meta": "10% off | Use TRYNEW",
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "discountType": "Flat",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "descriptionList": [
+                                    {
+                                        "meta": "10% off up to ₹40 | Use code TRYNEW",
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "meta": "Flat ₹75 off | Use YES Bank Credit Card Above ₹499",
+                                        "discountType": "Flat",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "visible": true
+                            },
+                            "badges": {},
+                            "slugString": "satara-snacks-satara-satara",
+                            "isOpen": true,
+                            "labels": [
+                                {
+                                    "title": "Timings",
+                                    "message": "null"
+                                },
+                                {
+                                    "title": "Address",
+                                    "message": "Shop No : 6 , Floor :  , govind plaza opp dcc bank head office , "
+                                },
+                                {
+                                    "title": "Cuisines",
+                                    "message": "Cafe"
+                                }
+                            ],
+                            "totalRatings": 12,
+                            "aggregatedDiscountInfoV2": {
+                                "header": "10% off",
+                                "shortDescriptionList": [
+                                    {
+                                        "meta": "10% off | Use TRYNEW",
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "discountType": "Flat",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "descriptionList": [
+                                    {
+                                        "meta": "10% off up to ₹40 | Use code TRYNEW",
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "meta": "Flat ₹75 off | Use YES Bank Credit Card Above ₹499",
+                                        "discountType": "Flat",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "couponDetailsCta": "View coupon details"
+                            },
+                            "type": "F",
+                            "headerBanner": {
+                                "url": "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/990148"
+                            },
+                            "ratingSlab": "RATING_SLAB_5",
+                            "orderabilityCommunication": {
+                                "title": {},
+                                "subTitle": {},
+                                "message": {},
+                                "customIcon": {},
+                                "commsStyling": {}
+                            },
+                            "hasBestsellerItems": true,
+                            "cartOrderabilityNudgeBanner": {
+                                "parameters": {},
+                                "presentation": {}
+                            },
+                            "latLong": "17.686717406056697,74.01642445014096",
+                            "backgroundImageOverlayInfo": {},
+                            "featuredSectionInfo": {}
+                        },
+                        "analytics": {}
+                    },
+                    "relevance": {
+                        "type": "RELEVANCE_TYPE_CHECK_ORDERABILITY_ON_ITEM_ADD",
+                        "sectionId": "POP_UP_CROUTON_MENU"
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+                        "layout": {
+                            "rows": 1,
+                            "columns": 3,
+                            "horizontalScrollEnabled": true,
+                            "itemSpacing": 12,
+                            "lineSpacing": 10,
+                            "widgetPadding": {},
+                            "containerStyle": {
+                                "containerPadding": {
+                                    "left": 10,
+                                    "right": 10,
+                                    "bottom": 16
+                                }
+                            },
+                            "scrollBar": {}
+                        },
+                        "id": "offerCollectionWidget_UX4",
+                        "gridElements": {
+                            "infoWithStyle": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.OfferInfoWithStyle",
+                                "offers": [
+                                    {
+                                        "info": {
+                                            "header": "10% OFF UPTO ₹40",
+                                            "offerTagColor": "#E46D47",
+                                            "offerIds": [
+                                                "4b952be1-a7f2-4f5d-b166-eeb62048fcbc"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "USE TRYNEW",
+                                            "description": "ABOVE ₹159",
+                                            "offerType": "offers",
+                                            "restId": "990148",
+                                            "offerLogo": "offers/generic",
+                                            "descriptionTextColor": "#7302060C"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "header": "FLAT ₹75 OFF",
+                                            "offerTagColor": "#E46D47",
+                                            "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2024/12/31/c80d2931-d9ec-4188-8687-492f10b60cdf_YESBankMenuLogo2.jpg",
+                                            "offerIds": [
+                                                "9f7c0500-6573-49db-a675-f5d174ef05dd"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "NO CODE REQUIRED",
+                                            "description": "ABOVE ₹499",
+                                            "offerType": "offers",
+                                            "restId": "990148",
+                                            "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2024/12/31/c80d2931-d9ec-4188-8687-492f10b60cdf_YESBankMenuLogo2.jpg",
+                                            "descriptionTextColor": "#7302060C"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "header": "30% OFF UPTO ₹150",
+                                            "offerTagColor": "#E46D47",
+                                            "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2024/12/31/4fdc8b84-4e02-494d-9dae-e122b4b56894_AxisMenuLogo.png",
+                                            "offerIds": [
+                                                "d2bffa89-9f8a-4c68-ac78-d0c8afecb1ef"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "USE AXIS30",
+                                            "description": "ABOVE ₹200",
+                                            "offerType": "offers",
+                                            "restId": "990148",
+                                            "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2024/12/31/4fdc8b84-4e02-494d-9dae-e122b4b56894_AxisMenuLogo.png",
+                                            "descriptionTextColor": "#7302060C"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    }
+                                ],
+                                "habitMilestoneInfo": {
+                                    "callout": {}
+                                },
+                                "loyaltyDiscoverPresentationInfo": {
+                                    "logoCtx": {}
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "groupedCard": {
+                    "cardGroupMap": {
+                        "REGULAR": {
+                            "cards": [
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuVegFilterAndBadge",
+                                            "isPureVeg": true,
+                                            "badges": {},
+                                            "vegOnlyDetails": {
+                                                "imageId": "AutoVegOnly_qkjowj",
+                                                "title": "Showing only vegetarian options.",
+                                                "description": "Tap on the VEG ONLY button to turn off the setting"
+                                            },
+                                            "topRatedFilter": {
+                                                "attributes": {
+                                                    "displayText": "Ratings 4.0+"
+                                                }
+                                            },
+                                            "kidsCategoryFilter": {
+                                                "attributes": {
+                                                    "displayText": "Kids Favourites",
+                                                    "tooltip": {
+                                                        "enabled": true,
+                                                        "displayText": "Kids Favourites Filter applied. Remove this filter to see the full Menu."
+                                                    }
+                                                }
+                                            },
+                                            "vegFilter": {
+                                                "attributes": {
+                                                    "displayText": "VEG"
+                                                },
+                                                "isSelected": true
+                                            },
+                                            "nonvegFilter": {
+                                                "attributes": {
+                                                    "displayText": "NONVEG"
+                                                }
+                                            }
+                                        },
+                                        "relevance": {
+                                            "type": "RELEVANCE_TYPE_ON_MENU_FILTER_TOGGLED",
+                                            "sectionId": "MENU_FILTER_TOGGLE"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Snacks",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "155458412",
+                                                            "name": "Poha",
+                                                            "category": "Snacks",
+                                                            "description": "A light and healthy dish made from flattened rice, tossed with onions, green chilies, mustard seeds, and garnished with fresh coriander and a dash of lemon for a tangy kick. A staple breakfast choice!",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/11/16/4e315d21-852c-499c-b739-a5d2e49807d9_b9b4bbbb-bc70-484c-a208-5983ba01dcda.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 2000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "155458413",
+                                                            "name": "Upit",
+                                                            "category": "Snacks",
+                                                            "description": "A warm and comforting South Indian semolina dish cooked with ghee, mustard seeds, curry leaves, and fresh vegetables. Perfectly spiced and satisfying.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/11/16/b040c4b9-7707-4200-aea1-d063314211ac_01d4b8fd-b6f7-4ee6-a1bd-e0c691adeb52.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 2500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "155645726",
+                                                            "name": "Vada Pav",
+                                                            "category": "Snacks",
+                                                            "description": "A classic Mumbai street food, featuring a spicy mashed potato fritter sandwiched in a soft pav (bread) and served with tangy chutneys for a burst of flavor.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/11/16/19eacea9-d5c5-4f5b-adc3-c43ee1bfd440_c013e7af-612a-4dd2-bfd7-c7d43b7992b3.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 1500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "155645727",
+                                                            "name": "Batata Vada Sambhar",
+                                                            "category": "Snacks",
+                                                            "description": "Golden-crisp potato fritters paired with steaming hot sambhar  a tangy and spicy lentil soup with a hint of tamarind. A unique combination!",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/11/16/a3db395d-14e4-47b8-87d9-133a4834841c_32fd4b1b-bf6b-4421-8794-7ed8ed02418b.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 5000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "155645728",
+                                                            "name": "Misal Pav",
+                                                            "category": "Snacks",
+                                                            "description": "A fiery Maharashtrian curry made with sprouted lentils, topped with crunchy farsan (fried gram flour snacks), onions, and a squeeze of lemon, served with pav. A perfect mix of textures and flavors!",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/11/16/c8c43c35-880d-4079-90c9-2b9f158b7b7d_11b79ea2-8236-4de3-9372-563302d622e5.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 6000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "155777658",
+                                                            "name": "Puri Bhaji",
+                                                            "category": "Snacks",
+                                                            "description": "Golden, puffed puris paired with a flavorful potato curry cooked with aromatic spices, making it a hearty and timeless Indian delight.\n\n\n\n\n\n\n",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/12/11/4f2351bd-20ad-4a39-ba85-6980d3ec7c31_dccaa91a-2ec8-44e3-87be-e3efc589eabe.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 7000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "157579862",
+                                                            "name": "Sheera",
+                                                            "category": "Snacks",
+                                                            "description": "A rich and velvety semolina pudding infused with ghee, cardamom, and saffron, sweetened to perfection and garnished with nuts.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/12/11/e2c6b0dd-f7d4-4e50-9ea9-f4bb613ff549_8d87181b-65b8-44e2-a620-f98a11a8649e.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 3000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "157579889",
+                                                            "name": "Pav Bhaji",
+                                                            "category": "Snacks",
+                                                            "description": "A luscious blend of spiced mashed vegetables served with buttery, toasted pav buns, topped with a dollop of butter and a side of tangy onions and lemon.\n\n\n\n\n\n\n",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/12/11/08ee01a8-1674-42a2-bdca-7b7ec32dba11_facd5951-78a4-4087-b607-ed2c23491eb6.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 7000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "157579903",
+                                                            "name": "Dahi Vada",
+                                                            "category": "Snacks",
+                                                            "description": "Soft lentil dumplings soaked in creamy yogurt, topped with tangy tamarind chutney, spicy green chutney, and a sprinkle of aromatic spices.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/12/11/c413debe-7ca6-416c-98ee-ae8362088624_bd5b768c-1929-4469-98c3-f2b0efbf7cfc.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 7000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "subtitleSuffix": {}
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Rice & Plates",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "155645729",
+                                                            "name": "Rice Plate",
+                                                            "category": "Rice & Plates",
+                                                            "description": "A wholesome and hearty meal featuring steamed rice, three soft chapatis, flavorful varan (dal), a dry sabji, curry, fresh salad, and crispy papad. A complete traditional Indian thali experience!",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/11/16/1449123e-5db9-4463-bb61-45bcb37132ab_44aafe4e-5ec7-45de-b699-bc04deba015b.jpg_compressed",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 13000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "155645730",
+                                                            "name": "Bhaji Chapati",
+                                                            "category": "Rice & Plates",
+                                                            "description": "A simple yet fulfilling dish with two freshly prepared chapatis, a flavorful vegetable curry, and a side of tangy pickle for a burst of flavor.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/11/16/b3c40084-78a5-4780-97f9-5dda123143ea_8751d358-5cbd-4e63-b49f-5886aa2a6d81.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 7000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "155645731",
+                                                            "name": "Varan Bhat",
+                                                            "category": "Rice & Plates",
+                                                            "description": "Comfort food at its best  fluffy rice served with traditional Maharashtrian dal, mildly spiced and tempered with ghee and cumin.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/11/16/7900a65b-dd9b-4ec4-b06e-936e52978b1e_7cc3af0a-79ac-4b9e-b9b9-810529f5db9c.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 6000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "subtitleSuffix": {}
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "South Indian Menu",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "155645733",
+                                                            "name": "Shabudana Vada",
+                                                            "category": "South Indian Menu",
+                                                            "description": "Crispy fritters made from tapioca pearls and mashed potatoes, deep-fried to golden perfection and served hot with tangy chutney.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/11/16/7c5f6a2a-ce53-47bd-8c39-311bb4c3d754_83bb5230-2a41-4da3-800f-e00f789d6acd.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 5500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "155645732",
+                                                            "name": "Shabudana Khichdi",
+                                                            "category": "South Indian Menu",
+                                                            "description": "A savory dish made from soaked tapioca pearls, cooked with roasted peanuts, green chilies, and a touch of lime. A popular choice during fasting days.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/11/16/d731107d-17a1-48ac-91f4-055a295f98e3_16203d89-5409-4e35-9af7-cfccbeec265a.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 5000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "5.0",
+                                                                    "ratingCount": "3 ratings",
+                                                                    "ratingCountV2": "3"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "155645734",
+                                                            "name": "Kat Dosa",
+                                                            "category": "South Indian Menu",
+                                                            "description": "A bold and spicy South Indian specialty featuring a thick dosa layered with robust masala and a fiery red chutney. Ideal for spice lovers!",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/12/25/bf1adc6f-fd04-4acf-87eb-fd9ffde9a22e_bbc0a460-9a96-4bb0-bd51-d4634893189e.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 9000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "155645735",
+                                                            "name": "Mysore Masala Dosa",
+                                                            "category": "South Indian Menu",
+                                                            "description": "A crispy dosa spread with a spicy Mysore style chutney and stuffed with a rich potato filling. A South Indian classic with a unique twist!",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/11/16/5dc5ac65-ced4-4104-b8f1-d73820c083b6_088102d2-52b1-4d1f-9c9d-4224ae02837d.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 9000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "155645736",
+                                                            "name": "Sponge Dosa",
+                                                            "category": "South Indian Menu",
+                                                            "description": "Soft, fluffy dosas served with aromatic sambhar and coconut chutney. A perfect choice for those who enjoy light, spongy textures.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/11/16/aca67543-2d18-44c3-8c59-1b19088efe72_4a8b5b8d-c27d-4de6-8c59-b8a95df36052.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 9000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "155645737",
+                                                            "name": "Paper Dosa",
+                                                            "category": "South Indian Menu",
+                                                            "description": "A large, ultra-thin dosa thats crisp and golden, served with a variety of chutneys and piping hot sambhar. A delightful visual and culinary treat!",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/11/16/59b42a07-9ad9-4576-bc70-1e7123671f01_5605eebf-0e4f-433c-8a2e-1b24247c94ed.jpg_compressed",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 9000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "155645739",
+                                                            "name": "Set Dosa",
+                                                            "category": "South Indian Menu",
+                                                            "description": "A set of small, thick dosas with a soft center, served with tangy sambhar and chutneys, offering a wholesome and filling meal.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/11/16/88777c71-3b9e-4c17-8051-814303c3a84b_88b4a2fb-b4a3-4bfe-a040-11392d80d836.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 9000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "155645740",
+                                                            "name": "Tomato Omelette (Eggless)",
+                                                            "category": "South Indian Menu",
+                                                            "description": "A vegetarian delight made with a batter of chickpea flour, spiced with chopped tomatoes, onions, and coriander. Served hot and packed with nutrition.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/11/16/4745a927-b700-4ae3-a4eb-bee1ae5799b5_ac3d69b0-cf43-44c8-beec-eb95d8511ad2.jpg",
+                                                            "inStock": 1,
+                                                            "price": 8000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "155458418",
+                                                            "name": "Uttapam",
+                                                            "category": "South Indian Menu",
+                                                            "description": "A thick, pancake-like South Indian dish, topped with a medley of onions, tomatoes, and green chilies, served with sambhar and chutney.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/11/16/f135b832-7e54-49cc-8ee2-f7ac46beeeac_3dafc13d-647c-480f-a7b5-9753bdb4c410.jpg_compressed",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 6000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "155645742",
+                                                            "name": "Masala Dosa",
+                                                            "category": "South Indian Menu",
+                                                            "description": "A golden-brown dosa filled with a delicious spiced potato mixture, served with sambhar and coconut chutney. The ultimate South Indian comfort food.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/11/16/79f0ca56-30a4-4793-9cae-3d548acdc157_8d53f1e8-db60-4a33-8881-d3393b6441ed.jpg_compressed",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 6000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "155645743",
+                                                            "name": "Sada Dosa",
+                                                            "category": "South Indian Menu",
+                                                            "description": "A simple, plain dosa, perfectly crisp on the outside and soft inside, served with sambhar and an array of chutneys.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/11/16/097ed714-c2ed-451a-88dc-4eb98031b404_8b14be02-6cbf-4581-971c-5f8fcba763aa.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 5000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "155645744",
+                                                            "name": "Sada Uttapam",
+                                                            "category": "South Indian Menu",
+                                                            "description": "A plain version of uttapam with a soft texture, served with traditional South Indian accompaniments. Ideal for a light meal.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/11/16/a02230f2-7216-4c19-b893-541abd9e341b_b3a937d2-55c4-4e3b-a71f-aec48c8bbb2e.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 5000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "159461113",
+                                                            "name": "Idli",
+                                                            "category": "South Indian Menu",
+                                                            "description": "A fluffy and flavorful South Indian delight, perfect to start your day or indulge in a light, savory treat.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/1/1/52a6fe1b-b1d4-4dd2-ac8b-b5f0d364cccb_ef4297ae-3c96-4481-903e-feb862355f48.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 3500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "159461114",
+                                                            "name": "Udid Vada",
+                                                            "category": "South Indian Menu",
+                                                            "description": "Crispy, golden fritters made with urad dal, perfectly spiced and served with tangy chutney and sambar. A crunchy delight in every bite!",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/1/1/4c667ade-f7e3-4e3a-8cff-ec7340e75993_1db6124d-d015-4ab5-9123-cb5b27e141df.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 5500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "subtitleSuffix": {}
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Drinks (Beverages)",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "155458422",
+                                                            "name": "Chai",
+                                                            "category": "Drinks (Beverages)",
+                                                            "description": "A cup of traditional Indian tea brewed with milk, sugar, and aromatic spices like cardamom and ginger. Refreshing and energizing!",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/11/16/08041e0a-5864-43a6-bdbc-10be5cb29306_8d1517fd-2214-41fb-8e60-3b3080060a27.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 1000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "155458423",
+                                                            "name": "Coffee",
+                                                            "category": "Drinks (Beverages)",
+                                                            "description": "Freshly brewed coffee with a rich aroma and bold taste, served hot for a perfect start to your day.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/11/16/3560c544-6097-47f8-b369-828f1d800a3e_6f7021d8-1202-40fb-92d7-93dea8a1b233.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 1500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "155645745",
+                                                            "name": "Lemon Tea",
+                                                            "category": "Drinks (Beverages)",
+                                                            "description": "A light and tangy tea infused with the zesty flavor of lemon. A refreshing and invigorating drink.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/11/16/a473852b-b1c0-4a95-ade3-04b70ed9b67a_47b1ac08-d129-4511-94b8-ed938a870c77.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 1500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "155458425",
+                                                            "name": "Lassi",
+                                                            "category": "Drinks (Beverages)",
+                                                            "description": "A creamy yogurt based drink, lightly sweetened and flavored with cardamom. A traditional and cooling beverage.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/11/16/06ba16f9-7782-4d17-a032-b73da1e317da_fa734f8d-5a38-4364-bc58-a48b39f18e21.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 3000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "155645747",
+                                                            "name": "Cold Coffee",
+                                                            "category": "Drinks (Beverages)",
+                                                            "description": "Chilled, creamy coffee blended with milk and sugar. Perfect for beating the heat while enjoying rich coffee flavors.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/11/16/42e78305-cf64-4793-a977-353e9035c346_d2d7f199-b3f0-4aee-bbdd-159af1d90bbf.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 8000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "subtitleSuffix": {}
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Punjabi Dishes Menu (Plate-wise)",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "155645748",
+                                                            "name": "Paneer Masala",
+                                                            "category": "Punjabi Dishes Menu (Plate-wise)",
+                                                            "description": "Soft, fresh cubes of paneer (Indian cottage cheese) cooked in a velvety tomato-onion gravy. This dish is enhanced with fragrant spices like garam masala, kasuri methi (dried fenugreek leaves), and a touch of cream, delivering a harmonious balance of rich flavors. Garnished with coriander and served steaming hot, its the perfect indulgence for paneer lovers.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/11/16/221b4214-14b6-4d1d-a303-ee37f355f2ce_323b7049-7280-4150-8fcb-c692d6b466e1.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 13000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "155645749",
+                                                            "name": "Kaju Masala",
+                                                            "category": "Punjabi Dishes Menu (Plate-wise)",
+                                                            "description": "A royal delicacy featuring cashew nuts roasted to golden perfection, simmered in a luxurious gravy made from cashew paste, cream, and aromatic spices. This mildly spiced dish is enriched with the essence of cardamom, cloves, and saffron, offering a delightful fusion of sweetness and spice. Its a favorite for those craving a rich and festive flavor.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/11/16/7aa9399d-dd6b-4001-ac21-7aab75043752_aebf9d19-e1e7-4dd1-b983-6463c9b160f2.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 11000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "155645750",
+                                                            "name": "Dal Tadka",
+                                                            "category": "Punjabi Dishes Menu (Plate-wise)",
+                                                            "description": "A quintessential Punjabi dish made with a combination of yellow lentils (toor dal) slow-cooked until creamy. The dish is elevated by a sizzling tempering of ghee, cumin seeds, garlic, and whole red chilies. This aromatic tadka is poured over the dal, infusing it with a robust flavor. Served with rice or chapati, its hearty and soul-warming.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/11/16/ec80631c-3399-4cd1-a4b3-d62d0e161c18_6a4f573e-72dc-4c30-b28e-c0a57905b566.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 10000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "155645751",
+                                                            "name": "Jeera Rice",
+                                                            "category": "Punjabi Dishes Menu (Plate-wise)",
+                                                            "description": "Fragrant basmati rice cooked to perfection, infused with the earthy aroma of toasted cumin seeds and tempered with ghee for a rich yet light flavor. Garnished with fresh coriander, this dish is a versatile accompaniment, complementing the bold flavors of curries and dals alike.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/11/16/1c8481d7-fce2-400f-b672-de16f3f10a7b_eabeb7c2-5fb8-407d-a5a6-9a567aef5593.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 8000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "subtitleSuffix": {}
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantLicenseInfo",
+                                            "type": "FSSAI",
+                                            "imageId": "fssai_final_edss9i",
+                                            "text": [
+                                                "License No. 21522195000228"
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantAddress",
+                                            "name": "satara snacks",
+                                            "area": "Satara",
+                                            "completeAddress": "Shop No : 6 , Floor :  , govind plaza opp dcc bank head office , "
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        ],
+        "firstOffsetRequest": true,
+        "isQCLink": false
+    },
+    "tid": "2da0e8f9-6aff-4308-a84c-9b31a8b0da30",
+    "sid": "i6z38e6d-94a6-4a84-a6e6-88eb7529fdc2",
+    "deviceId": "23424b4d-4c7d-cb89-0037-5a18b8e4f8e4",
+    "csrfToken": "F1mXEfGbVLvO-AK8p-vIxTLR08yX1layTQ80j-1s"
+}
